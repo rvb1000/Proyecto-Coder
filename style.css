@@ -117,7 +117,7 @@ overflow: hidden;
 
 .intro-acerca-de {
     width: 100%;
-    background-image: url(../RP/IMAGENES/gaston-index-5.jpg);
+    background-image: url(./IMAGENES/gaston-index-5.jpg);
     background-size: cover;
     background-repeat: none;
     background-position: center -10px;
@@ -137,7 +137,7 @@ overflow: hidden;
 
 .intro-cursos {
     width: 100%;
-    background-image: url(../RP/IMAGENES/gaston-cursos.jpg);
+    background-image: url(./IMAGENES/gaston-cursos.jpg);
     background-size: cover;
     background-repeat: none;
     background-position: center -10px;
@@ -414,7 +414,7 @@ overflow: hidden;
 
 .intro-contacto {
     width: 100%;
-    background-image: url(../RP/IMAGENES/gaston-contacto.jpg);
+    background-image: url(./IMAGENES/gaston-contacto.jpg);
     background-size: cover;
     background-repeat: none;
     background-position: center -10px;
@@ -434,7 +434,7 @@ overflow: hidden;
 
 .intro-blog {
     width: 100%;
-    background-image: url(../RP/IMAGENES/gaston-blog.jpg);
+    background-image: url(./IMAGENES/gaston-blog.jpg);
     background-size: cover;
     background-repeat: none;
     background-position: center -10px;
