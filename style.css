@@ -566,6 +566,10 @@ overflow: hidden;
     align-items: center;
 }
 
+.estilo-formulario {
+    margin-left: 450px;
+}
+
 .footer {
     width: 980px;
     border-top: 1px solid #ebebeb;
