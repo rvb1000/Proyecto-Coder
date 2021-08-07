@@ -1,0 +1,597 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ebeaeb;
+}
+
+section {
+    width: 980px;
+    margin: auto;
+}
+
+img {
+    vertical-align: middle;
+}
+
+nav {
+    float: none;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+ul {
+    padding: 25px 0px;
+    display: inline-block;
+}
+
+a {
+    margin: 5px;
+}
+
+p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #5e5e5e;
+}
+
+th {
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #5e5e5e;
+}
+
+.logo {
+    padding: 35px 0px;
+    float: left;
+}
+
+.logo-imagen {
+    width: 230px;
+    margin-top: -40px;
+    margin-left: -15px;
+}
+
+.social {
+    float: right;
+    margin-top: -50px;
+}
+
+.intro {
+    width: 100%;
+    background-image: url(../RP/IMAGENES/gaston-index-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center -10px;
+    height: 415px;
+    margin-top: 0px;
+}
+
+.texto-intro {
+    width: 600px;
+    font-size: 44px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #5e5e5e;
+    padding: 100px 0px 30px 0px;
+}
+
+.texto-intro span {
+    color: #00aff4;
+    font-weight: bold;
+}
+
+.info-gaston {
+padding: 50px 0px 30px 0px;
+overflow: hidden;
+}
+
+.info-gaston img {
+    border-radius: 50%;
+    float: left;
+    margin-right: 150px;
+    border-style: none;
+}
+
+.info-gaston p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #414141;
+}
+
+.intro-acerca-de {
+    width: 100%;
+    background-image: url(../RP/IMAGENES/gaston-index-5.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center -10px;
+    height: 60px;
+    padding: 80px 0px;
+    margin-top: 0px;
+}
+
+.texto-acerca-de {
+    width: 700px;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #5e5e5e;
+    padding: 30px 0px 30px 0px;
+}
+
+.intro-cursos {
+    width: 100%;
+    background-image: url(../RP/IMAGENES/gaston-cursos.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center -10px;
+    height: 60px;
+    padding: 80px 0px;
+    margin-top: 0px;
+}
+
+.Curso-Padre {
+    display: flex;
+    justify-content: center;
+    margin: 50px 100px;
+}
+
+.Curso-1 {
+    padding: 40px 10px 40px 10px;
+    border-radius: 20px; 
+    background-color: #00aff4;
+    font-size: 15px;
+    line-height: 2;
+    width: 20%;
+    margin: 10px;
+    text-align: center;
+}
+
+.Curso-1 span {
+    display: inline-block;
+    top: 20px;
+    right: 10px;
+    font-weight: bold;
+    background-color: #414141;
+    color: white;
+    padding: 0px 10px 0px 10px;
+    border-radius: 5px;
+}
+
+.Curso-1 h1 {
+    color: white;
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+    font-weight: bold;
+}
+
+.Curso-1 h4 {
+    color: white;
+    text-align:center;
+    padding: 5px 0px 0px 0px;
+    font-weight: bold;
+}
+
+.Curso-1 p {
+    color: white;
+}
+
+.Curso-1 img {
+    margin-top: 10px;
+    width: 25px;
+}
+
+.Curso-1 a {
+    background-color: white;
+    border-radius: 2.5px;
+    font-weight: bold;
+    color: #414141;
+    top: 20px;
+    right: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+.intro-social {
+    width: 100%;
+    background-size: cover;
+    background-repeat: none;
+    background-position: center -10px;
+    height: 60px;
+    padding: 80px 0px;
+    margin-top: 0px;
+}
+
+.Curso-2 {
+    padding: 40px 10px 40px 10px;
+    border-radius: 20px; 
+    background-color: #00aff4;
+    font-size: 15px;
+    line-height: 2;
+    width: 20%;
+    margin: 10px;
+    text-align: center;
+}
+
+.Curso-2 span {
+    display: inline-block;
+    top: 20px;
+    right: 10px;
+    font-weight: bold;
+    background-color: #414141;
+    color: white;
+    padding: 0px 10px 0px 10px;
+    border-radius: 5px;
+}
+
+.Curso-2 h1 {
+    color: white;
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+    font-weight: bold;
+}
+
+.Curso-2 h4 {
+    color: white;
+    text-align:center;
+    padding: 5px 0px 0px 0px;
+    font-weight: bold;
+}
+
+.Curso-2 p {
+    color: white;
+}
+
+.Curso-2 img {
+    margin-top: 10px;
+    width: 25px;
+}
+
+.Curso-2 a {
+    background-color: white;
+    border-radius: 2.5px;
+    font-weight: bold;
+    color: #414141;
+    top: 20px;
+    right: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+.intro-mk {
+    width: 100%;
+    background-size: cover;
+    background-repeat: none;
+    background-position: center -10px;
+    height: 60px;
+    padding: 80px 0px;
+    margin-top: 0px;
+}
+
+.Curso-3 {
+    padding: 40px 10px 40px 10px;
+    border-radius: 20px; 
+    background-color: #00aff4;
+    font-size: 15px;
+    line-height: 2;
+    width: 20%;
+    margin: 10px;
+    text-align: center;
+}
+
+.Curso-3 span {
+    display: inline-block;
+    top: 20px;
+    right: 10px;
+    font-weight: bold;
+    background-color: #414141;
+    color: white;
+    padding: 0px 10px 0px 10px;
+    border-radius: 5px;
+}
+
+.Curso-3 h1 {
+    color: white;
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+    font-weight: bold;
+}
+
+.Curso-3 h4 {
+    color: white;
+    text-align:center;
+    padding: 5px 0px 0px 0px;
+    font-weight: bold;
+}
+
+.Curso-3 p {
+    color: white;
+}
+
+.Curso-3 img {
+    margin-top: 10px;
+    width: 25px;
+}
+
+.Curso-3 a {
+    background-color: white;
+    border-radius: 2.5px;
+    font-weight: bold;
+    color: #414141;
+    top: 20px;
+    right: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+.intro-google {
+    width: 100%;
+    background-size: cover;
+    background-repeat: none;
+    background-position: center -10px;
+    height: 60px;
+    padding: 80px 0px;
+    margin-top: 0px;
+}
+
+.Curso-4 {
+    padding: 40px 10px 40px 10px;
+    border-radius: 20px; 
+    background-color: #00aff4;
+    font-size: 15px;
+    line-height: 2;
+    width: 20%;
+    margin: 10px;
+    text-align: center;
+}
+
+.Curso-4 span {
+    display: inline-block;
+    top: 20px;
+    right: 10px;
+    font-weight: bold;
+    background-color: #414141;
+    color: white;
+    padding: 0px 10px 0px 10px;
+    border-radius: 5px;
+}
+
+.Curso-4 h1 {
+    color: white;
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+    font-weight: bold;
+}
+
+.Curso-4 h4 {
+    color: white;
+    text-align:center;
+    padding: 5px 0px 0px 0px;
+    font-weight: bold;
+}
+
+.Curso-4 p {
+    color: white;
+}
+
+.Curso-4 img {
+    margin-top: 10px;
+    width: 25px;
+}
+
+.Curso-4 a {
+    background-color: white;
+    border-radius: 2.5px;
+    font-weight: bold;
+    color: #414141;
+    top: 20px;
+    right: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+.intro-fb {
+    width: 100%;
+    background-size: cover;
+    background-repeat: none;
+    background-position: center -10px;
+    height: 60px;
+    padding: 80px 0px;
+    margin-top: 0px;
+}
+
+.intro-contacto {
+    width: 100%;
+    background-image: url(../RP/IMAGENES/gaston-contacto.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center -10px;
+    height: 60px;
+    padding: 80px 0px;
+    margin-top: 0px;
+}
+
+.texto-contacto {
+    width: 700px;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 400;
+    color: #5e5e5e;
+    padding: 30px 0px 30px 0px;
+}
+
+.intro-blog {
+    width: 100%;
+    background-image: url(../RP/IMAGENES/gaston-blog.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center -10px;
+    height: 60px;
+    padding: 80px 0px;
+    margin-top: 0px;
+}
+
+.Blog1 {
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: 400px 400px;
+    grid-column-gap: 80px;
+    grid-row-gap: 300px;
+    grid-template-areas: "noticia1 noticia2" "noticia3 noticia4";
+    margin-top: 100px;
+    margin-bottom: 300px;
+}
+
+.imagen-noticia-1 {
+    grid-area:noticia1;
+    justify-items: center;
+}
+
+.imagen-noticia-1 img {
+    width: 425px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.imagen-noticia-1 h3 {
+    font-size: 30px;
+    font-weight: bold;
+    font-size: 400;
+    line-height: 1.5;
+    padding-top: 20px;
+    color: #5e5e5e;
+}
+
+.imagen-noticia-1 p {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #5e5e5e;
+    align-items: center;
+}
+
+.imagen-noticia-2 {
+    grid-area:noticia2;
+    justify-items: center;
+}
+
+.imagen-noticia-2 img {
+    width: 425px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.imagen-noticia-2 h3 {
+    font-size: 30px;
+    font-weight: bold;
+    font-size: 400;
+    line-height: 1.5;
+    padding-top: 20px;
+    color: #5e5e5e;
+}
+
+.imagen-noticia-2 p {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #5e5e5e;
+    align-items: center;
+}
+
+.imagen-noticia-3 { 
+    grid-area:noticia3;
+    justify-items: center;
+}
+
+.imagen-noticia-3 img {
+    width: 425px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.imagen-noticia-3 h3 {
+    font-size: 30px;
+    font-weight: bold;
+    font-size: 400;
+    line-height: 1.5;
+    padding-top: 20px;
+    color: #5e5e5e;
+}
+
+.imagen-noticia-3 p {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #5e5e5e;
+    align-items: center;
+}
+
+.imagen-noticia-4 { 
+    grid-area:noticia4;
+    justify-items: center;
+}
+
+.imagen-noticia-4 img {
+    width: 425px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.imagen-noticia-4 h3 {
+    font-size: 30px;
+    font-weight: bold;
+    font-size: 400;
+    line-height: 1.5;
+    padding-top: 20px;
+    color: #5e5e5e;
+}
+
+.imagen-noticia-4 p {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #5e5e5e;
+    align-items: center;
+}
+
+.footer {
+    width: 980px;
+    border-top: 1px solid #ebebeb;
+    height: 60px;
+    padding: 30px 0px;
+    clear: both;
+    margin: 50px 0px 0px 200px;
+    color: white;
+}
+
+.footer-c1 {
+    width: 50%;
+    float: left;
+}
+
+.logo-footer {
+    padding-bottom: 5px;
+}
+
+.logo-footer-image {
+    width: 74px;
+    margin-top: -30px;
+}
+
+.copyright {
+    clear: both;
+    font-size: 18px;
+    color: #414141;
+}
