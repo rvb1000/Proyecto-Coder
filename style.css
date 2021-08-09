@@ -8,7 +8,7 @@
 
 header {
     background-color: #fff;
-    border-bottom: 1px solid #ebeaeb;
+    padding-bottom: 1%;
 }
 
 section {
@@ -21,15 +21,12 @@ img {
 }
 
 nav {
-    float: none;
-    width: 100%;
-    text-align: center;
-    font-weight: bold;
+    display: flex;
+    justify-content: center;
 }
 
 ul {
     padding: 25px 0px;
-    display: inline-block;
 }
 
 a {
@@ -69,7 +66,8 @@ th {
 }
 
 .social {
-    float: right;
+    display: flex;
+    justify-content: flex-end;
     margin-top: -50px;
 }
 
@@ -98,8 +96,8 @@ th {
 }
 
 .info-gaston {
-padding: 50px 0px 30px 0px;
-overflow: hidden;
+    padding: 50px 0px 30px 0px;
+    overflow: hidden;
 }
 
 .info-gaston img {
@@ -149,11 +147,12 @@ overflow: hidden;
 .Curso-Padre {
     display: flex;
     justify-content: center;
-    margin: 50px 100px;
+    margin: 30px 300px;
 }
 
 .Curso-1 {
     padding: 40px 10px 40px 10px;
+    border: 3px solid #070e12;
     border-radius: 20px; 
     background-color: #00aff4;
     font-size: 15px;
@@ -219,6 +218,7 @@ overflow: hidden;
 
 .Curso-2 {
     padding: 40px 10px 40px 10px;
+    border: 3px solid #070e12;
     border-radius: 20px; 
     background-color: #00aff4;
     font-size: 15px;
@@ -284,6 +284,7 @@ overflow: hidden;
 
 .Curso-3 {
     padding: 40px 10px 40px 10px;
+    border: 3px solid #070e12;
     border-radius: 20px; 
     background-color: #00aff4;
     font-size: 15px;
@@ -349,6 +350,7 @@ overflow: hidden;
 
 .Curso-4 {
     padding: 40px 10px 40px 10px;
+    border: 3px solid #070e12;
     border-radius: 20px; 
     background-color: #00aff4;
     font-size: 15px;
