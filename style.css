@@ -438,132 +438,22 @@ th {
     margin-top: 0px;
 }
 
-.Blog1 {
-    display: grid;
-    grid-template-columns: 450px 450px;
-    grid-template-rows: 400px 400px;
-    grid-column-gap: 80px;
-    grid-row-gap: 300px;
-    grid-template-areas: "noticia1 noticia2" "noticia3 noticia4";
-    margin-top: 100px;
-    margin-bottom: 300px;
-}
-
-.blog2 {
+.blog1 {
     display: flex;
     flex-direction: row;
-}
-
-.imagen-noticia-1 {
-    grid-area:noticia1;
     justify-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
 }
 
-.imagen-noticia-1 img {
-    width: 425px;
-    height: 200px;
-    border-radius: 10px;
+.card {
+    margin: 1em;
 }
 
-.imagen-noticia-1 h3 {
-    font-size: 30px;
-    font-weight: bold;
-    font-size: 400;
-    line-height: 1.5;
-    padding-top: 20px;
-    color: #5e5e5e;
-}
-
-.imagen-noticia-1 p {
-    font-size: 20px;
-    line-height: 1.5;
-    font-weight: 400;
-    color: #5e5e5e;
-    align-items: center;
-}
-
-.imagen-noticia-2 {
-    grid-area:noticia2;
-    justify-items: center;
-}
-
-.imagen-noticia-2 img {
-    width: 425px;
-    height: 200px;
-    border-radius: 10px;
-}
-
-.imagen-noticia-2 h3 {
-    font-size: 30px;
-    font-weight: bold;
-    font-size: 400;
-    line-height: 1.5;
-    padding-top: 20px;
-    color: #5e5e5e;
-}
-
-.imagen-noticia-2 p {
-    font-size: 20px;
-    line-height: 1.5;
-    font-weight: 400;
-    color: #5e5e5e;
-    align-items: center;
-}
-
-.imagen-noticia-3 { 
-    grid-area:noticia3;
-    justify-items: center;
-}
-
-.imagen-noticia-3 img {
-    width: 425px;
-    height: 200px;
-    border-radius: 10px;
-}
-
-.imagen-noticia-3 h3 {
-    font-size: 30px;
-    font-weight: bold;
-    font-size: 400;
-    line-height: 1.5;
-    padding-top: 20px;
-    color: #5e5e5e;
-}
-
-.imagen-noticia-3 p {
-    font-size: 20px;
-    line-height: 1.5;
-    font-weight: 400;
-    color: #5e5e5e;
-    align-items: center;
-}
-
-.imagen-noticia-4 { 
-    grid-area:noticia4;
-    justify-items: center;
-}
-
-.imagen-noticia-4 img {
-    width: 425px;
-    height: 200px;
-    border-radius: 10px;
-}
-
-.imagen-noticia-4 h3 {
-    font-size: 30px;
-    font-weight: bold;
-    font-size: 400;
-    line-height: 1.5;
-    padding-top: 20px;
-    color: #5e5e5e;
-}
-
-.imagen-noticia-4 p {
-    font-size: 20px;
-    line-height: 1.5;
-    font-weight: 400;
-    color: #5e5e5e;
-    align-items: center;
+.card img {
+    width: 288px;
+    height: 150px;
 }
 
 .estilo-formulario {
