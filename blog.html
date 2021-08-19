@@ -5,6 +5,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+                integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+                crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,113 +17,137 @@
 </head>
 
 <body>
-        <header>
-                <section>
-                        <div class="animate__animated animate__backInLeft">
-                                <div class="logo">
-                                        <a href="index.html">
-                                                <img src="./IMAGENES/logo-gaston-2.png" alt="logo" class="logo-imagen">
-                                        </a>
-                                </div>
+        <header class="container">
+                <div class="animate__animated animate__backInLeft">
+                        <div class="logo">
+                                <a href="index.html">
+                                        <img src="./IMAGENES/logo-gaston-2.png" alt="logo" class="logo-imagen">
+                                </a>
                         </div>
-                        <nav>
-                                <ul>
-                                        <a href="index.html">INICIO</a>
-                                        <a href="sobre-mi.html">SOBRE MI</a>
-                                        <a href="cursos.html">CURSOS</a>
-                                        <a href="blog.html">BLOG</a>
-                                        <a href="contacto.html">CONTACTO</a>
-                                </ul>
-                        </nav>
+                </div>
+                <nav>
+                        <ul>
+                                <a class="btn btn-outline-info" href="index.html">INICIO</a>
+                                <a class="btn btn-outline-info" href="sobre-mi.html">SOBRE MI</a>
+                                <a class="btn btn-outline-info" href="cursos.html">CURSOS</a>
+                                <a class="btn btn-outline-info" href="blog.html">BLOG</a>
+                                <a class="btn btn-outline-info" href="contacto.html">CONTACTO</a>
+                        </ul>
+                </nav>
 
-                        <div class="social">
-                                <div class="animate__animated animate__backInRight">
-                                        <a href="https://www.facebook.com/gastongennai"><img
-                                                        src="./IMAGENES/facebook.png" alt="fb"></a>
-                                </div>
-                                <div class="animate__animated animate__backInRight">
-                                        <a href="https://www.instagram.com/gastongennai/"><img
-                                                        src="./IMAGENES/instagram.png" alt="ig"></a>
-                                </div>
-                                <div class="animate__animated animate__backInRight">
-                                        <a href="https://www.linkedin.com/in/gast%C3%B3n-gennai-01454a123/"><img
-                                                        src="./IMAGENES/linkedin.png" alt="lk"></a>
-                                </div>
+                <div class="social">
+                        <div class="animate__animated animate__backInRight">
+                                <a href="https://www.facebook.com/gastongennai"><img src="./IMAGENES/facebook.png"
+                                                alt="fb"></a>
                         </div>
-                </section>
+                        <div class="animate__animated animate__backInRight">
+                                <a href="https://www.instagram.com/gastongennai/"><img src="./IMAGENES/instagram.png"
+                                                alt="ig"></a>
+                        </div>
+                        <div class="animate__animated animate__backInRight">
+                                <a href="https://www.linkedin.com/in/gast%C3%B3n-gennai-01454a123/"><img
+                                                src="./IMAGENES/linkedin.png" alt="lk"></a>
+                        </div>
+                </div>
         </header>
         <section class="intro-blog">
                 <section>
                         <h3>BLOG</h3>
                 </section>
         </section>
+
         <section>
-                <div class="Blog1">
-                        <div class="imagen-noticia-1">
-                                <img src="./IMAGENES/blog-1.jpg" alt="img1">
-                                <h3>¡Novedades en el algoritmo de Facebook!</h3>
-                                <p>¿Tus publicaciones no estaban teniendo las interacciones o el alcance que deseabas?
-                                        Muchas personas vinculadas al mundo digital están mencionando que de a poco va a
-                                        desaparecer el alcance orgánico de facebook, ya que sus posteos apenas logran
+                <div class="card" style="width: 18rem;">
+                        <img src="./IMAGENES/blog-1.jpg" class="card-img-top" alt="card1">
+                        <div class="card-body">
+                                <h5 class="card-title">¡Novedades en el algoritmo de Facebook!</h5>
+                                <p class="card-text">¿Tus publicaciones no estaban teniendo las interacciones o
+                                        el
+                                        alcance que deseabas?
+                                        Muchas personas vinculadas al mundo digital están mencionando que de a
+                                        poco va a
+                                        desaparecer el alcance orgánico de facebook, ya que sus posteos apenas
+                                        logran
                                         cumplir las expectativas deseadas.</p>
+                                <a href="#" class="btn btn-primary">Saber mas</a>
                         </div>
-                        <div class="imagen-noticia-2">
-                                <img src="./IMAGENES/blog-2.jpg" alt="img2">
-                                <h3>Estuve junto a Mundo Pastel brindando una conferencia sobre creatividad en eventos
-                                </h3>
-                                <p>El miércoles 17 de abril fui invitado por Mundo Pastel, uno de los principales
-                                        institutos gastronómicos de la ciudad de La Plata para brindar una charla
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                        <img src="./IMAGENES/blog-2.jpg" class="card-img-top" alt="card2">
+                        <div class="card-body">
+                                <h5 class="card-title">Estuve junto a Mundo Pastel brindando una conferencia
+                                        sobre
+                                        creatividad en eventos.</h5>
+                                <p class="card-text">El miércoles 17 de abril fui invitado por Mundo Pastel, uno
+                                        de los
+                                        principales
+                                        institutos gastronómicos de la ciudad de La Plata para brindar una
+                                        charla
                                         informativa
-                                        acerca de organización y creatividad en eventos. Estuvimos hablando sobre mi
+                                        acerca de organización y creatividad en eventos. Estuvimos hablando
+                                        sobre mi
                                         desempeño y
-                                        labor en Trineo Creativo, Falsa Boda y el municipio de la ciudad de La Plata.
+                                        labor en Trineo Creativo, Falsa Boda y el municipio de la ciudad de La
+                                        Plata.
                                 </p>
+                                <a href="#" class="btn btn-primary">Saber mas</a>
                         </div>
-                        <div class="imagen-noticia-3">
-                                <img src="./IMAGENES/blog-3.jpg" alt="img3">
-                                <h3>
-                                        Acom: El primer encuentro del año en la ciudad de La Plata
-                                </h3>
-                                <p>
-                                        El viernes 22 de marzo en el Pasaje Dardo Rocha realizamos el primer encuentro
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                        <img src="./IMAGENES/blog-3.jpg" class="card-img-top" alt="card3">
+                        <div class="card-body">
+                                <h5 class="card-title">Acom: El primer encuentro del año en la ciudad de La
+                                        Plata.</h5>
+                                <p class="card-text">El viernes 22 de marzo en el Pasaje Dardo Rocha realizamos
+                                        el
+                                        primer encuentro
                                         de gestores de
-                                        redes sociales con la Asociación de Community Managers de la ciudad de La Plata
+                                        redes sociales con la Asociación de Community Managers de la ciudad de
+                                        La Plata
                                         (ACOM).
-                                        Durante el encuentro hubo 3 exposiciones sobre las cuales debatimos en cada
-                                        caso.
-                                </p>
+                                        Durante el encuentro hubo 3 exposiciones sobre las cuales debatimos en
+                                        cada
+                                        caso.</p>
+                                <a href="#" class="btn btn-primary">Saber mas</a>
                         </div>
-                        <div class="imagen-noticia-4">
-                                <img src="./IMAGENES/blog-4.jpg" alt="img4">
-                                <h3>
-                                        Estudiantes y Gimnasia contaron cómo es la “pasión por las redes sociales”
-                                </h3>
-                                <p>
-                                        Los dos clubes más importantes de la ciudad de La Plata nos contaron cómo
-                                        gestionan sus redes
-                                        sociales y qué significa trabajar junto a las pasiones de los hinchas. El evento
-                                        contó
-                                        con la presencia de Ariel Ibarra, Social Media Manager del Club Estudiantes de
-                                        La Plata,
-                                        y Norberto Gobbi, Gerente de Marketing del Club de Gimnasia y Esgrima de La
-                                        Plata
-                                </p>
+
+                        <div class="card" style="width: 18rem;">
+                                <img src="./IMAGENES/blog-4.jpg" class="card-img-top" alt="card4">
+                                <div class="card-body">
+                                        <h5 class="card-title">Estudiantes y Gimnasia contaron cómo es la
+                                                “pasión por
+                                                las redes sociales”</h5>
+                                        <p class="card-text">Los dos clubes más importantes de la ciudad de La
+                                                Plata nos
+                                                contaron cómo
+                                                gestionan sus redes
+                                                sociales y qué significa trabajar junto a las pasiones de los
+                                                hinchas.
+                                                El evento
+                                                contó
+                                                con la presencia de Ariel Ibarra, Social Media Manager del Club
+                                                Estudiantes de
+                                                La Plata,
+                                                y Norberto Gobbi, Gerente de Marketing del Club de Gimnasia y
+                                                Esgrima de
+                                                La
+                                                Plata.</p>
+                                        <a href="#" class="btn btn-primary">Saber mas</a>
+                                </div>
+        </section>
+
+        <section class="footerR">
+                <div class="footer-c1">
+                        <div class="logo-footer">
+                                <a href="./index.html"> <img src="./IMAGENES/favicon.png" class="logo-footer-image"></a>
+                        </div>
+                        <div class="copyright">
+                                Todos los derechos reservados.
                         </div>
                 </div>
         </section>
-        <footer>
-                <section class="footer">
-                        <div class="footer-c1">
-                                <div class="logo-footer">
-                                        <a href="./index.html"> <img src="./IMAGENES/favicon.png"
-                                                        class="logo-footer-image"></a>
-                                </div>
-                                <div class="copyright">
-                                        Todos los derechos reservados.
-                                </div>
-                        </div>
-                </section>
-        </footer>
 </body>
 
 </html>
